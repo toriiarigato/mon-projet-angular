@@ -1,4 +1,3 @@
-import { NgIf } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { AppareilService } from '../services/appareil.service';
 
@@ -9,9 +8,10 @@ import { AppareilService } from '../services/appareil.service';
 })
 export class AppareilComponent implements OnInit {
 
-  @Input() appareilName: string | undefined;
-  @Input() appareilStatus: string | undefined;
-  @Input() indexOfAppareil!: number;
+  @Input() appareilName: string;
+  @Input() appareilStatus: string;
+  @Input() indexOfAppareil: number;
+  @Input() id:number;
 
   constructor(private appareilService: AppareilService) { }
 
