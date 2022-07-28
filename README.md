@@ -1,3 +1,5 @@
+lien du tuto YT https://www.youtube.com/watch?v=uYhAfgEwNWA&t=8550s
+
 # MonProjetAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
