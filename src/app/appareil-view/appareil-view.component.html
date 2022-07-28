@@ -15,10 +15,18 @@
     </ul>
 
     <br>
-    <button class="btn btn-success"
-      (click)="onAllumer()">Tout allumer
-    </button>
-    <button class="btn btn-danger"
-    (click)="onEteindre()">Tout éteindre
-    </button>
+    <div class="d-flex justify-content-evenly">
+      <button class="btn btn-success"
+          (click)="onAllumer()">Tout allumer
+      </button>
+      <button class="btn btn-danger"
+          (click)="onEteindre()">Tout éteindre
+      </button>
+      <button class="btn btn-primary"
+          (click)="onSave()">Enregistrer
+      </button>
+      <button class="btn btn-primary"
+          (click)="onFetch()">Charger les appareils
+      </button>
+    </div>
   </div>
